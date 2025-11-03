@@ -97,7 +97,7 @@ const Posts = ({ selectedSection }) => {
               {/* Donate button */}
               <Link
                 to="/donation"
-                state={{ section: report.setion }}
+                state={{ section: report.section }}
                 className="bg-[#FFCD18] hover:scale-103 hover:bg-[#ffba18] cursor-pointer active:bg-yellow-500 active:scale-95 transition duration-[0.1s] w-1/3 h-[36px] flex flex-row justify-center items-center rounded-[18px]"
               >
                 <p className="opacity-65">تبرع</p>

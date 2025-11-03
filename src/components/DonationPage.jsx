@@ -6,7 +6,7 @@ const DonationPage = () => {
   const location = useLocation();
   // Get the section from the state passed by the Link component
   const donationSection = location.state?.section;
-
+  console.log(donationSection);
   return (
     <div className="direction-rtl w-full  flex flex-col justify-center px-4 items-center mt-10">
       {donationSection && (
