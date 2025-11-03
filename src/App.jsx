@@ -20,7 +20,7 @@ import { SectionProvider } from "./context/SectionContext";
 import DonationPage from "./components/DonationPage";
 import { Navigate, Outlet } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/authContext";
-
+import About from "./pages/About";
 const ProtectedRoute = () => {
   const { isLoggedIn, loading } = useAuth();
 
