@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@font-face {
+  font-family: "lamasans";
+  src: url("./assets/fonts/LamaSans-Medium.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lamasans";
+  src: url("./assets/fonts/LamaSans-SemiBold.ttf");
+  font-style: bold;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+h1 {
+  font-family: "lamasans";
+  font-weight: bold;
+  opacity: 0.55;
+}
+
+h2 {
+  font-family: "lamasans";
+  font-weight: bold;
+}
+
+#cc {
+  font-family: "lamasans";
+  font-weight: normal;
+}
+
+p {
+  font-family: "lamasans";
+  font-weight: normal;
+}
+
+.direction-rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.direction-ltr {
+  direction: ltr;
+  text-align: left;
+}
