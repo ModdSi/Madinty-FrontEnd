@@ -14,7 +14,6 @@ import {
 } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import About from "./pages/about";
 import EditReport from "./pages/EditReport";
 import Done from "./components/Done";
 import { SectionProvider } from "./context/SectionContext";
